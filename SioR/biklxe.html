@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>SioR</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style5.css">
+	<link rel="stylesheet" href="css/style3.css">
+</head>
+<body >
+		<header class="main-header" >
+			<nav class="main-header-nav container" style="   background: #b2dfdb;">
+				<a class="main-header-logo" href="#">
+					<!-- <img src="img/sior.jpg" style="width: 35px; border-radius: 50%; margin-top: 10px;"> -->
+				</a>
+				<li class="site-navigation-item">
+					<a class="link-item1" href="FlashNews_without_js_robot2-1/deception.html">SioR
+					</a>
+				</li>
+				<!-- <ul class="site-navigation">
+					<li class="site-navigation-item">
+						<a href="index.html" class="link-item">на головну</a>
+					</li>
+					<li class="site-navigation-item">
+						<a href="sell.html" class="link-item">акції</a>
+					</li>
+					<li class="site-navigation-item">
+						<a href="03_11_zastavnyi/01-task.html" class="link-item">гра</a>
+					</li>
+					<li class="site-navigation-item">
+						<a href="awtoru.html" class="link-item">про авторів</a>
+					</li>
+				</ul> -->
+				<input type="checkbox" id="burger">
+				<label id="toggle" for="burger">
+					<span></span>
+				</label>
+				<div class="menu">
+					<ul class="menu__list">
+						<li class="menu__element"><a href="index.html" class="nav_title">на головну</a></li>
+						<li class="menu__element"><a href="sell.html" class="nav_title">акції</a></li>
+						<li class="menu__element"><a href="03_11_zastavnyi/01-task.html" class="nav_title">гра</a></li>
+						<li class="menu__element"><a href="awtoru.html" class="nav_title">про авторів</a></li>
+
+					</ul>
+
+				</div>
+				<ul class="user-navigation">
+					<li class="user-navigation-item">
+						<a href="#" class="link-item"><img src="img/vector1.png" alt=""></a>
+					</li>
+					<li class="user-navigation-item">
+						<a href="#" class="link-item"><img src="img/vector2.png" alt=""></a>
+					</li>
+					<li class="user-navigation-item">
+						<a href="#" class="link-item"><img src="img/vector3.png" alt="" width="19px"></a>
+					</li>
+				</ul>
+				<div class="nene">
+          		<button class="tile-view view-checked" type="button">Плитка</button>
+				  <button class="row-view" type="button">Список</button>
+
+				<select class="filter" name="news-filter" style="border-radius: 5px; margin-right: 10px; color: #80deea; border: 1px solid #3f7571 ;background: #3f7571;">
+					<option value="Adidas">Adidas</option>
+					<option value="Jordan">Jordan</option>
+					<option value="Nike">Nike</option>
+					<option value="NewBalance">New Balance</option>
+					<option value="all">Всі моделі</option>
+				  </select>
+				</div>
+			</nav>
+
+			<section class="bestsellers container">
+				<header class="bestsellers-header">
+					<h2 class="section-title1">всі моделі</h2>
+
+				</header>
+				<ul class="catalog-list">
+					<li class="catalog-item kk1" data-category="Nike">
+						<h3 class="catalog-item-title">
+							<a href="card.html" class="catalog-item-link">Nike</a>
+						</h3>
+						<p class="catalog-item-price pr1" style="float:right;" >5490 грн</p>
+						<p class="nover"></p>
+						<img src="img/dunk.jpg" alt="Rado" class="catalog-item-img" width="333px" height="333px">
+						<a href="butsu/NIKE DUNK HI RETRO VIOLETYELLOW/index.html" class="ling-details slon1"  style="float:left;">детальнiше</a>
+					</li>
+					<li class="catalog-item kk2" data-category="Nike">
+						<h3 class="catalog-item-title">
+							<a href="card.html" class="catalog-item-link">Nike</a>
+						</h3>
+						<p class="catalog-item-price pr2" style="float:right;">51840 грн</p>
+						<p class="nover2"></p>
+						<img src="img/Nike-SB-Dunk-Low-Grateful-Dead-Bears-Green-Product.jpg" alt="Rado" class="catalog-item-img" width="333px" height="333px">
+						<a href="butsu/Nike SB Dunk Low Grateful Dead Bears/index.html" class="ling-details slon2">детальнiше</a>
+					</li>
+					<li class="catalog-item kk3" data-category="Jordan">
+						<h3 class="catalog-item-title">
+							<a href="card.html" class="catalog-item-link">Jordan</a>
+						</h3>
+						<p class="catalog-item-price " style="float:right;">78330 грн</p>
+						<p class="nover"></p>
+						<img src="img/Air-Jordan-1-Retro-High-Off-White-University-Blue-Product_udxi-we.jpg" alt=""Rado class="catalog-item-img"  width="333px" height="333px">
+						<a href="butsu/Jordan 1 Retro High Off-White University Blue/index.html " class="ling-details">детальнiше</a>
+					</li>
+				</ul>
+				<div class="linia2"></div>
+				<ul class="catalog-list">
+					<li class="catalog-item kk4" data-category="Adidas">
+						<h3 class="catalog-item-title">
+							<a href="card.html" class="catalog-item-link">Adidas</a>
+						</h3>
+						<p class="catalog-item-price pr3" style="float:right;" >7590 грн</p>
+						<p class="nover3"></p>
+						<img src="img/1038363_01.jpg.jpeg" alt="Rado" class="catalog-item-img" width="333px" height="333px">
+						<a href="butsu/Nike Hot Step Air Terra Drake NOCTA Black Yellow/index.html" class="ling-details slon3"  style="float:left;">детальнiше</a>
+					</li>
+					<li class="catalog-item kk5" data-category="Nike">
+						<h3 class="catalog-item-title">
+							<a href="butsu/adidas adiFOM Q Core Black Imperial Orange/index.html" class="catalog-item-link">Nike</a>
+						</h3>
+						<p class="catalog-item-price pr4" style="float:right;">7799 грн</p>
+						<p class="nover4"></p>
+						<img src="img/Nike-SB-Dunk-Low-Grateful-Dead-Bears-Yellow-Product_wrtb-cg.jpg" alt="Rado" class="catalog-item-img" width="333px" height="333px">
+						<a href="butsu/Nike SB Dunk Low Grateful Dead Bears Opti Yellow/index.html" class="ling-details slon4">детальнiше</a>
+					</li>
+					<li class="catalog-item kk6" data-category="Nike">
+						<h3 class="catalog-item-title">
+							<a href="card.html" class="catalog-item-link">Nike</a>
+						</h3>
+						<p class="catalog-item-price" style="float:right;">8240 грн</p>
+						<p class="nover"></p>
+						<img src="img/Nike-Hot-Step-Air-Terra-Drake-NOCTA-Black-University-Gold-Product.jpg" alt=""Rado class="catalog-item-img ii1"  width="333px" height="333px">
+						<a href="butsu/adidas adiFOM Q Core Black Imperial Orange/index.html" class="ling-details">детальнiше</a>
+					</li>
+				</ul>
+				<div class="linia3"></div>
+				<ul class="catalog-list">
+					<li class="catalog-item kk7" data-category="Nike">
+						<h3 class="catalog-item-title">
+							<a href="card.html" class="catalog-item-link">Nike</a>
+						</h3>
+						<p class="catalog-item-price pr5" style="float:right;" >58720 грн</p>
+						<p class="nover5"></p>
+						<img src="img/Nike-SB-Dunk-Low-Ben-Jerrys-Chunky-Dunky-Product.jpg" alt="Rado" class="catalog-item-img" width="333px" height="333px">
+						<a href="butsu/Nike SB Dunk Low Ben & Jerry's Chunky Dunky/index.html" class="ling-details slon5"  style="float:left;">детальніше</a>
+					</li>
+					<li class="catalog-item kk8" data-category="NewBalance">
+						<h3 class="catalog-item-title">
+							<a href="card.html" class="catalog-item-link">New Balance</a>
+						</h3>
+						<p class="catalog-item-price pr6" style="float:right;">9400 грн</p>
+						<p class="nover6"></p>
+						<img src="img/New-Balance-M2002-Protection-Pack-Rain-Cloud-Product.jpg" alt=""Rado class="catalog-item-img"  width="333px" height="333px">
+						<a href="butsu/New Balance 2002R Protection Pack Rain Cloud/index.html" class="ling-details slon6">детальнiше</a>
+					</li>
+					<li class="catalog-item kk9" data-category="Adidas">
+						<h3 class="catalog-item-title">
+							<a href="card.html" class="catalog-item-link" >Adidas</a>
+						</h3>
+						<p class="catalog-item-price" style="float:right;">39500 грн</p>
+						<p class="nover"></p>
+						<img src="img/adidas-Yeezy-Knit-RNR-Boot-Sulfur-Product.jpg" alt="Rado" class="catalog-item-img  ii1" width="333px" height="333px">
+						<a href="butsu/adidas Yeezy Knit RNR Boot Sulfur/index.html" class="ling-details">детальнiше</a>
+					</li>
+				</ul>
+				<div class="linia4"></div>
+				<ul class="catalog-list">
+					<li class="catalog-item kk10" data-category="Jordan">
+						<h3 class="catalog-item-title">
+							<a href="card.html" class="catalog-item-link">Jordan</a>
+						</h3>
+						<p class="catalog-item-price pr7" style="float:right;" >31500 грн</p>
+						<p class="nover7"></p>
+						<img src="img/Air-Jordan-4-Retro-PSG-Paris-Saint-Germain-Product_s6v0-cv.jpg" alt="Rado" class="catalog-item-img" width="333px" height="333px">
+						<a href="butsu/Jordan 4 Retro PSG Paris Saint-Germain/index.html" class="ling-details slon7"  style="float:left;">детальнiше</a>
+					</li>
+					<li class="catalog-item kk11" data-category="Nike">
+						<h3 class="catalog-item-title">
+							<a href="card.html" class="catalog-item-link">Nike</a>
+						</h3>
+						<p class="catalog-item-price pr8" style="float:right;">15850 грн</p>
+						<p class="nover8"></p>
+						<img src="img/Nike-Air-Force-1-Mid-Supreme-NBA-Black-Product.jpg" alt="Rado" class="catalog-item-img" width="333px" height="333px">
+						<a href="butsu/Nike Air Force 1 Mid Supreme NBA Black/index.html" class="ling-details slon8">детальнiше</a>
+					</li>
+					<li class="catalog-item kk12" data-category="Nike">
+						<h3 class="catalog-item-title">
+							<a href="card.html" class="catalog-item-link">Nike</a>
+						</h3>
+						<p class="catalog-item-price" style="float:right;">8 710 грн</p>
+						<p class="nover"></p>
+						<img src="img/Nike-Air-Force-1-Low-Experimental-Halloween-Product.jpg" alt=""Rado class="catalog-item-img  ii1"  width="333px" height="333px">
+						<a href="butsu/Nike Air Force 1 Low Experimental Halloween/index.html" class="ling-details">детальніше</a>
+					</li>
+				</ul>
+			
+		<footer class="main-footer" style=" height: ;">
+
+			<p style="font-size: 20px; color: aliceblue; margin-left: 120px ;">теми:</p>
+
+			<li class="color-tem" style="text-decoration: none;" id="yellow">Темна</li>
+			<li class="color-tem" style="text-decoration: none; border: 5px solid whitesmoke; " id="witr">Біла</li>
+
+			<div class="blololok">
+				<div class="ff">
+				<a style="width: 30px; margin-left: 10px;"  href="https://discord.gg/3PVJEQbT"><img class="immmg" src="img/ds1.png" alt=""></a>
+				<a style="width: 30px; margin-left: 10px;"  href="https://instagram.com/vurstaschool?igshid=ZDdkNTZiNTM="><img class="immmg" src="img/instagram-icon.png" alt=""></a>
+				<a  style="width: 30px; margin-left: 10px; margin-bottom: 5px;" href="https://www.reddit.com/user/_Xlibnui_makish_"><img class="immmg" src="img/reddit.png" alt=""></a>
+			</div>
+			<div class="ttttt">
+				<p class="ttt">Terms of Use: Privacy Policy </p>
+				<p class="tt">©2023 Code Wizards</p>
+			</div>
+			</div>
+		</footer>
+		<button class="up-button" type="button">
+			^
+			<span class="visually-hidden"></span>
+			
+		<script>
+document.getElementById("witr").onclick = setGreen;
+document.getElementById("yellow").onclick = setYellow;
+let body = document.querySelector('body');
+
+
+	function setYellow() {
+	body.classList.toggle('bacround');
+	filter.classList.toggle('filter1');
+
+}
+	function setGreen() {
+	body.classList.toggle('bacround');
+	filter.classList.toggle('filter1');
+}
+
+let articles = document.querySelectorAll('.catalog-item');
+let filter = document.querySelector('.filter')
+let linia2 = document.querySelector('.linia2')
+let linia3 = document.querySelector('.linia3')
+let linia4 = document.querySelector('.linia4')
+
+filter.onchange = function(){
+    for (let article of articles) {
+        if (article.dataset.category !== filter.value && filter.value !== 'all') {
+            article.classList.add('visually-hidden');
+        } 
+        else{
+            article.classList.remove('visually-hidden');
+			linia2.classList.remove('linia2');
+			linia3.classList.remove('linia3');
+			linia4.classList.remove('linia4')
+        }
+    }
+}
+
+
+let upButton = document.querySelector('.up-button');
+
+      window.onscroll = function () {
+        if (window.pageYOffset > 170) {
+          upButton.classList.add('shown');
+        }else {
+        upButton.classList.remove('shown');
+      }
+    };
+      upButton.onclick = function(){
+        window.scrollTo(0, 0);
+      };
+
+let tileview = document.querySelector('.tile-view');
+let rowview = document.querySelector('.row-view');
+let kk1 = document.querySelector('.kk1');
+let kk2 = document.querySelector('.kk2');
+let kk3 = document.querySelector('.kk3');
+let kk4 = document.querySelector('.kk4');
+let kk5 = document.querySelector('.kk5');
+let kk6 = document.querySelector('.kk6');
+let kk7 = document.querySelector('.kk7');
+let kk8 = document.querySelector('.kk8');
+let kk9 = document.querySelector('.kk9');
+let kk10 = document.querySelector('.kk10');
+let kk11 = document.querySelector('.kk11');
+let kk12 = document.querySelector('.kk12');
+let nover = document.querySelector('.nover');
+let nover2 = document.querySelector('.nover2');
+let nover3 = document.querySelector('.nover3');
+let nover4 = document.querySelector('.nover4');
+let nover5 = document.querySelector('.nover5');
+let nover6 = document.querySelector('.nover6');
+let nover7 = document.querySelector('.nover7');
+let nover8 = document.querySelector('.nover8');
+let catalprice1 = document.querySelector('.pr1');
+let catalprice2 = document.querySelector('.pr2');
+let catalprice3 = document.querySelector('.pr3');
+let catalprice4 = document.querySelector('.pr4');
+let catalprice5 = document.querySelector('.pr5');
+let catalprice6 = document.querySelector('.pr6');
+let catalprice7 = document.querySelector('.pr7');
+let catalprice8 = document.querySelector('.pr8');
+let slon1 = document.querySelector('.slon1');
+let slon2 = document.querySelector('.slon2');
+let slon3 = document.querySelector('.slon3');
+let slon4 = document.querySelector('.slon4');
+let slon5 = document.querySelector('.slon5');
+let slon6 = document.querySelector('.slon6');
+let slon7 = document.querySelector('.slon7');
+let slon8 = document.querySelector('.slon8');
+
+
+
+
+
+
+
+
+tileview.onclick = function() { 
+	tileview.classList.add('view-checked');
+	rowview	.classList.remove('view-checked');
+	kk3.classList.remove('kkdo');
+	kk6.classList.remove('kkdo');
+	kk9.classList.remove('kkdo');
+	kk12.classList.remove('kkdo');
+
+	kk2.classList.remove('alig');
+	kk5.classList.remove('alig');
+	kk8.classList.remove('alig');
+	kk11.classList.remove('alig');
+	nover.textContent = "";
+	nover.classList.remove('nnover');
+	nover2.textContent = "";
+	nover2.classList.remove('nnover');
+	nover3.textContent = "";
+	nover3.classList.remove('nnover1');
+	nover4.textContent = "";
+	nover4.classList.remove('nnover2');
+	nover5.textContent = "";
+	nover5.classList.remove('nnover');
+	nover6.textContent = "";
+	nover6.classList.remove('nnover');
+	nover7.textContent = "";
+	nover7.classList.remove('nnover');
+	nover8.textContent = "";
+	nover8.classList.remove('nnover');
+
+	catalprice1.classList.remove('catalprice');
+	catalprice2.classList.remove('catalprice');
+	catalprice3.classList.remove('catalprice');
+	catalprice4.classList.remove('catalprice');
+	catalprice5.classList.remove('catalprice');
+	catalprice6.classList.remove('catalprice');
+	catalprice7.classList.remove('catalprice');
+	catalprice8.classList.remove('catalprice');
+
+	slon1.classList.remove('slololo');
+	slon2.classList.remove('slololo');
+	slon3.classList.remove('slololo');
+	slon4.classList.remove('slololo');
+	slon5.classList.remove('slololo');
+	slon6.classList.remove('slololo');
+	slon7.classList.remove('slololo');
+	slon8.classList.remove('slololo');
+};
+rowview.onclick = function() { 
+	rowview	.classList.add('view-checked');
+	tileview.classList.remove('view-checked');
+	kk3.classList.add('kkdo');
+	kk6.classList.add('kkdo');
+	kk9.classList.add('kkdo');
+	kk12.classList.add('kkdo');
+
+	kk2.classList.add('alig');
+	kk5.classList.add('alig');
+	kk8.classList.add('alig');
+	kk11.classList.add('alig');
+	nover.textContent = "NIKE DUNK HI RETROVIOLET YELLOW Розміри: 39-47";
+	nover.classList.add('nnover');
+	nover2.textContent = "Nike SB Dunk Low Grateful Dead Bears Green Розміри: 39-47";
+	nover2.classList.add('nnover');
+	nover3.textContent = "adiFOM Q Core Black Imperial Orange Розміри: 42, 45";
+	nover3.classList.add('nnover1');
+	nover4.textContent = "Nike SB Dunk Low Grateful Dead Bears Opti Yellow Розміри: 39-47";
+	nover4.classList.add('nnover2');
+	nover5.textContent = "Nike SB Dunk Low Ben & Jerry's Chunky Dunky Розміри: 42, 45";
+	nover5.classList.add('nnover');
+	nover6.textContent = "New Balance 2002R Protection Pack Rain Cloud Розміри: 39-47";
+	nover6.classList.add('nnover');
+	nover7.textContent = "Jordan 4 Retro PSG Paris Saint-Germain  Розміри: 42, 45";
+	nover7.classList.add('nnover');
+	nover8.textContent = "Nike Air Force 1 Mid Supreme NBA Black Розміри: 39-47";
+	nover8.classList.add('nnover');
+	catalprice1.classList.add('catalprice');
+	catalprice2.classList.add('catalprice');
+	catalprice3.classList.add('catalprice');
+	catalprice4.classList.add('catalprice');
+	catalprice5.classList.add('catalprice');
+	catalprice6.classList.add('catalprice');
+	catalprice7.classList.add('catalprice');
+	catalprice8.classList.add('catalprice');
+
+	slon1.classList.add('slololo');
+	slon2.classList.add('slololo');
+	slon3.classList.add('slololo');
+	slon4.classList.add('slololo');
+	slon5.classList.add('slololo');
+	slon6.classList.add('slololo');
+	slon7.classList.add('slololo');
+	slon8.classList.add('slololo');
+};
+		</script>
+
+</body>
+</html>

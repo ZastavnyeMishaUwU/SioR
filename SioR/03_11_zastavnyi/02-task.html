@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання 2</title>
+
+    <style>
+        #color-sample {
+            width: 250px;
+            height: 70px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="color-sample"></div>
+
+
+    <script>
+        /*
+        Завдання
+        Виправте сценарій таким чином, щоб крім зміни кольору div#color-sample в пааграфі під div виводилося повідомлення
+        Колір: #000000
+        Де #000000 - це значення, кольору  фону елементу div#color-sample
+        */
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+
+            return color;
+        }
+
+        let colorSampleDiv = document.querySelector("#color-sample");
+        colorSampleDiv.style.backgroundColor = getRandomColor();
+        colorSampleDiv.innerHTML=`<br><br><br><br>колір:` + `${getRandomColor()}<br>`
+
+
+
+    </script>
+</body>
+
+</html>
