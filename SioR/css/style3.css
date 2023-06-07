@@ -1,0 +1,359 @@
+*{
+    text-decoration: none;
+
+ 
+}
+/* .conteiner {
+    width: 825px;
+    margin: 0 auto;   
+} */
+.nav {
+    /* width: 825px; */
+    height: 100px;
+}
+
+.worked {
+    width: 825px;
+    height: 1350px;
+}
+.worked_nav {
+    width: 775px;
+    height: 100px;
+    margin: 0 auto;
+}
+.worked_nav_text {
+    font-size: 24px;
+}
+.worked_fffffff {
+    margin-left: 20px;
+    width: 775px;
+    height: 750px;
+    margin: 0 auto;
+}
+.worked_blok {
+    width: 775px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 250px 525px;
+    grid-template-rows: 50px 50px 150px;
+    border-bottom: 1px solid #E0E0E0;
+    margin-top: 50px;
+}
+.worked_blok_title {
+    grid-column: 2/3 ;
+    grid-row: 1/2;
+    margin-left: 20px;
+}
+.worked_blok_dodatok {
+    grid-column: 2/3 ;
+    grid-row: 2/3;
+    margin-left: 20px;
+}
+.worked_blok_dodatok_data {
+    background: #000;
+    width: 50px;
+    color: #fff;
+    border-radius: 10px;
+
+}
+.worked_blok_dodatok_pana {
+    margin-left: 20px;
+}
+.worked_blok_text {
+    grid-column: 2/3 ;
+    grid-row: 3/4;
+    margin-left: 20px;
+}
+.worked_blok_imges {
+    grid-column: 1/2 ;
+    grid-row: 1/4;
+}
+.footer {
+    width: 775px;
+    height: 100px;
+    margin: 0 auto;
+}
+.footer_block_img{
+    margin-right: 20px ;
+    margin-left: 20px;
+    margin: 0 auto;
+
+
+}
+.df{
+    margin-left: 60px;
+    width: 300px;
+    margin-bottom: 20px;
+
+}
+.footer_block_nav{
+    margin: 0 auto;
+   
+
+}
+.footer_block{
+    position: absolute;
+    left: 587.5px;
+     margin: 0 auto;
+}
+.footer_block_nav_text{}
+
+
+  .nav_bloc{
+    width: 300px;
+    height: 100px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .nav_title{
+    color: #000;
+    text-decoration: none;
+
+  }
+
+@media (max-width: 774px) and (min-width: 359px){
+    *{
+        text-decoration: none;
+        font-family: 'Heebo', sans-serif;
+      
+    }
+    .conteiner {
+        width: 359px;
+        margin: 0 auto;
+        
+    }
+    .nav {
+        width: 359px;
+        height: 100px;
+    }
+    
+  
+      .nav_bloc{
+        width: 300px;
+        text-align: center;
+      }
+
+    .promo {
+        width: 359px;
+        /* height: 600px; */
+        display: flex;
+        flex-wrap: wrap;
+
+    
+    }
+    .promo_bloc {
+        
+       
+    }
+    .promo_bloc_title {
+    
+        text-align: center;
+    }
+    .promo_bloc_text {
+        text-align: center;
+    }
+    .promo_button {
+        
+  
+        color: aliceblue;
+        background: #FF6464;
+        border-radius: 2px;
+        width: 200px;
+        height: 40px;
+        transition: 0.5s;
+        margin: 0 auto;
+    
+    }
+    .promo_button:hover {
+   
+        color: aliceblue;
+        background: #ac4545;
+        border-radius: 2px;
+        width: 200px;
+        height: 40px;
+        transition: 0.5s;
+        margin: 0 auto;
+    
+    }
+    .promo_imges {
+        
+        grid-row: 1/2;
+        box-shadow: 0.4em 0.4em 5px rgba(175, 163, 163, 0.5);
+        border-radius: 50%;
+        height: 250px;
+        width: 250px;
+        margin-left: 60px;
+        order: -1;
+    }
+    .blog {
+        width: 359px;
+        height: 620px;
+        background: #edf7fa;
+        margin: 0 auto;
+    }
+    .blog_nav {
+        width: 359px;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .blog_blog {
+  
+    }
+    .blog_veiv {
+        color: lightblue;
+    
+    }
+    .blog_fffffff{
+        width: 359px;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-left: 20px;
+
+    
+    }
+    .blog_blok {
+        width: 300px;
+        height: 200px;
+        background: #fff;
+    }
+    .blog_blok_title {
+    }
+    .blog_blok_dodatok {
+        color: grey;
+    }
+    .blog_blok_text{
+        color: grey;
+        font-size: 11px;
+    }
+    .worked {
+        width: 359px;
+        height: auto;
+    }
+    .worked_nav {
+        width: 359px;
+        height: 100px;
+        margin: 0 auto;
+    }
+    .worked_nav_text {
+        font-size: 24px;
+    }
+    .worked_fffffff {
+        margin-left: 20px;
+        width: 359px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .delete{
+        display: none;
+    }
+    .worked_blok {
+        width: 359px;
+        height: 440px;
+        display: flex;
+        flex-wrap: wrap;
+       
+        margin-top: 50px;
+
+    }
+     .worked_blok:nth-child(2),.worked_blok:nth-child(3){
+        display: none;
+     }
+    .worked_blok_title {
+
+        text-align: center;
+    }
+    .worked_blok_dodatok {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 20px;
+    }
+    .worked_blok_dodatok_data {
+        background: #000;
+        width: 50px;
+        color: #fff;
+        border-radius: 10px;
+        
+    
+    }
+    .worked_blok_dodatok_pana {
+        margin-left: 20px;
+    }
+    .worked_blok_text {
+
+        margin-left: 20px;
+
+    }
+    .worked_blok_imges {
+        margin: 0 auto;
+        width: 359px;
+        height: 200px;
+    }
+    .footer {
+        width: 359px;
+        height: 100px;
+        margin: 0 auto;
+    }
+    .footer_block_img{
+        margin-right: 20px ;
+        margin-left: 20px;
+        margin: 0 auto;
+    
+    
+    }
+    .df{
+        margin-left: 60px;
+        width: 300px;
+        margin-bottom: 20px;
+    
+    }
+    .footer{
+        margin-top: 50px;
+    }
+    .footer_block_nav{
+        margin: 0 auto;
+       
+    
+    }
+    .footer_block{
+        position: absolute;
+        left: 87.5px;
+         margin: 0 auto;
+         
+    }
+    .footer_block_nav_text{}
+    
+
+      .nav_bloc{
+        width: 309px;
+        height: 100px;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    
+      }
+      .nav_title{
+        text-align: center;
+    
+
+           }
+      
+     }
+
+
+
+
+
+
+
+
+
+
+

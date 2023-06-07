@@ -1,0 +1,51 @@
+.error{
+    display:none;
+    color: rgb(255, 229, 229);
+    font-size: 20px;
+    background: rgb(66, 24, 24);
+
+}
+.error1{
+    display:none;
+    color: rgb(255, 229, 229);
+    font-size: 20px;
+    background:  #413b64;
+}
+.shown{
+    display: block;
+}
+.submit-button{
+    margin-top: 40px;
+    background: white;
+    color: #120a43;
+    border: 0;
+    width: 150px;
+    height:25px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.radio-buttons{ 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    position: absolute;
+    top: 160px;
+    left: 50px;
+
+}
+.neger{
+
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+.submit-button:hover{
+    margin-top: 0040px;
+    background: #7f12c7;
+    color: #ffffff;
+    border: 0;
+    width: 150px;
+    height:25px;
+    border: 2px solid black;
+    border-radius: 2px;
+}
