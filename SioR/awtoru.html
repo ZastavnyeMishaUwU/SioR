@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>SioR</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+</head>
+<body>
+		<header class="main-header" style="   background: #b2dfdb;">
+			<nav class="main-header-nav container">
+				<a class="main-header-logo" href="#">
+
+					<li class="site-navigation-item">
+						<a class="link-item1">SioR
+						</a>
+					</li>
+				</a>
+
+				<ul class="site-navigation">
+					<li class="site-navigation-item">
+						<a href="biklxe.html" class="link-item">каталог</a>
+					</li>
+					<li class="site-navigation-item">
+						<a href="sell.html" class="link-item">акції</a>
+					</li>
+					<li class="site-navigation-item">
+						<a href="03_11_zastavnyi/01-task.html" class="link-item">гра</a>
+					</li>
+					<li class="site-navigation-item">
+						<a href="index.html" class="link-item">на головну</a>
+					</li>
+
+				</ul>
+				<ul class="user-navigation">
+					<li class="user-navigation-item">
+						<a href="#" class="link-item"><img src="img/vector1.png" alt=""></a>
+					</li>
+					<li class="user-navigation-item">
+						<a href="#" class="link-item"><img src="img/vector2.png" alt=""></a>
+					</li>
+					<li class="user-navigation-item">
+						<a href="#" class="link-item"><img src="img/vector3.png" alt="" width="19px"></a>
+					</li>
+				</ul>
+			</nav>
+
+		</header>
+		<h1 style="text-align: center;">Автори:</h1>
+		<div class="awtor1">
+			<img class="awtor1_img " src="img/miha.jpg" alt="">
+			<p id="output_client_text1" class="awtor1_text ">Мене звати Заставний Михайло або Міша або ще Михаїл ну і так далі. Мені 12років я вивчаю web-програмування. Створюю сайти на замовлення, а також можу доробити ваш сайт! Верстаю сайти на HTML5 , CSS3 та JavaScriptв редакторі Visual Studio Code. Буду радий співпрацювати з вами!</p>
+		</div>
+		<div class="linia"></div>
+		<div class="awtor2" style="float: right;"><img class="awtor11_img" src="img/saxa.jpg" alt="">
+			<p id="output_client_text1" class="awtor11_text  ">Мене звати Вирста Олександр або просто Саша . Мені 14років я Верстаю сайти на HTML, CSS та JavaScript в редакторі Visual Studio Code. Створюю сайти на замовлення!  Якщо треба буду радий співпрацювати з вами!</p></div>
+		
+		<footer style="margin-top: 400px;" class="main-footer">
+			
+						<p style="font-size: 20px; color: aliceblue; margin-left: 120px ;">теми:</p>
+
+			<li class="color-tem" style="text-decoration: none;" id="yellow">Темна</li>
+			<li class="color-tem" style="text-decoration: none; border: 5px solid whitesmoke; " id="witr">Біла</li>
+		<div class="blololok">
+			<a href="https://discord.gg/3PVJEQbT"><img class="immmg" src="img/ds1.png" alt=""></a>
+			<a href="https://instagram.com/vurstaschool?igshid=ZDdkNTZiNTM="><img class="immmg" src="img/instagram-icon.png" alt=""></a>
+			<a href="https://www.reddit.com/user/_Xlibnui_makish_"><img class="immmg" src="img/reddit.png" alt=""></a>
+			<p class="ttt">Terms of Use: Privacy Policy </p>
+			<p class="tt">©2023 Code Wizards</p>
+		</div>
+		</footer>
+		<script>
+			document.getElementById("witr").onclick = setGreen;
+document.getElementById("yellow").onclick = setYellow;
+let body = document.querySelector('body')
+
+
+
+function setYellow() {
+	body.classList.toggle('bacround')
+
+
+
+}
+function setGreen() {
+	body.classList.toggle('bacround')
+}
+
+
+
+
+// Знаходимо елементи, які потрібно змінити стиль тексту
+const body1 = document.querySelector('body');
+const heading = document.querySelector('h1');
+const paragraph = document.querySelector('.awtor1_text');
+const paragraph1 = document.querySelector('.awtor11_text');
+
+// Створюємо функцію, яка змінює розмір шрифту для цих елементів
+function changeFontSize(size) {
+ 
+  paragraph.style.fontSize = size + 'px';
+  paragraph1.style.fontSize = size + 'px';
+}
+
+// Створюємо функцію, яка відображає панель персоналізації стилю сайту
+function createStylePanel() {
+  // Створюємо елементи HTML для панелі персоналізації
+  const panel = document.createElement('div');
+  const label = document.createElement('label');
+  const input = document.createElement('input');
+
+  // Налаштовуємо елементи HTML
+  panel.style.position = 'fixed';
+  panel.style.bottom = '20px';
+  panel.style.right = '20px';
+  panel.style.padding = '10px';
+  panel.style.background = '#fff';
+  panel.style.borderRadius = '5px';
+  panel.style.boxShadow = '0 0 10px rgba(0,0,0,0.3)';
+  label.innerText = 'Розмір шрифту:';
+  input.type = 'range';
+  input.min = '10';
+  input.max = '30';
+  input.value = '16';
+
+  // Додаємо обробник події для регулятора розміру шрифту
+  input.addEventListener('input', function() {
+    const size = input.value;
+    changeFontSize(size);
+  });
+
+  // Додаємо елементи HTML на сторінку
+  panel.appendChild(label);
+  panel.appendChild(input);
+  body.appendChild(panel);
+}
+
+// Викликаємо функцію для створення панелі персоналізації стилю сайту
+createStylePanel();
+		</script>
+
+</body>
+</html>
